@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>Atomic Event</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the event title and make up the bulk of
+            the event's content.
+          </Card.Text>
+          <Button variant="primary">Embed me!</Button>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
