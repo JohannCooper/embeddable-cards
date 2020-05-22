@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AtomicEvent from './AtomicEvent';
+import Navigation from './components/Navigation';
+import AtomicEvent from './components/AtomicEvent';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navigation />
     <AtomicEvent />
   </React.StrictMode>,
   document.getElementById('root'),
