@@ -25,7 +25,7 @@ function Cards() {
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(auto, 600px))',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(auto, 400px))',
         gridAutoRows: 'max-content',
         gridAutoFlow: 'dense',
         gridGap: 20,
