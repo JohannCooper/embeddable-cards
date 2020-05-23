@@ -9,399 +9,347 @@
 		"date": "January 18, 2019",
 		"img_file": "101.png",
 		"location": "Lincoln Memorial, Washington, D.C.",
-		"tags": ["#covington"],
+		"tags": ["covington"],
 		"title": "Confrontation at the Lincoln Memorial"
 	},
 	"102": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"The short videos of the encounter that were uploaded to social media platforms Instagram, Twitter, and YouTube received millions of views and were widely shared. ",
+			"At first, the anger focused on the students and the school; some of the students were the subject of death threats, and the school received threats of violence.",
+			"Many public figures suggested that the students’ actions were a result of  President Trump’s rhetoric.",
+			"As more videos were released, diverging views about what had really happened polarized Americans."
+		],
+		"date": "2019",
 		"img_file": "102.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "",
+		"tags": ["covington"],
+		"title": "Public Reaction to the Lincoln Memorial Confrontation"
 	},
 	"103": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Covington High School was quick  to condemn the students’ actions",
+			"Vowed to “take appropriate action, up to and including expulsion”."
+		],
+		"date": "January 19, 2019",
 		"img_file": "103.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Covington, LA 70433, United States",
+		"tags": ["covington"],
+		"title": "Covington High School’s Reaction to the Lincoln Memorial Confrontation"
 	},
 	"104": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": ["In 2015, Nathan Phillips had a similar confrontation with students from Eastern Michigan University."],
+		"date": "April 22, 2015",
 		"img_file": "104.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Ypsilanti, Michigan",
+		"tags": ["covington"],
+		"title": "Nathan Phillips’ History of Protest Involvements"
 	},
 	"105": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Rich died more than ​1 1⁄2 hours after receiving two gunshot wounds to the back. He was murdered by unknown perpetrators for unknown reasons, but police suspected he had been the victim of an attempted robbery.",
+			"There were bruises on Rich's knuckles and face.",
+			"Rich's wallet, credit cards, and cellphone were found on his body.",
+			"Rich was found conscious and breathing, and died in the hospital over an hour later."
+		],
+		"date": "July 10, 2016",
 		"img_file": "105.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Bloomingdale neighborhood (Ward 5, Washington, D.C.)",
+		"tags": ["seth-rich"],
+		"title": "Murder of Seth Rich"
 	},
 	"106": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": ["Four days before he was killed, Rich was hired to work for Clinton's presidential campaign."],
+		"date": "July 2016",
 		"img_file": "106.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "",
+		"tags": ["seth-rich"],
+		"title": "Seth Rich Hired For Campaign Work"
 	},
 	"107": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Julian Assange mentioned Rich's unsolved murder in an interview with Dutch television, saying that his sources take major risks, and that they are concerned when events like these happen.",
+			"Shortly after the interview, WikiLeaks announced a $20,000 reward for information leading to a conviction for the murder of Seth Rich."
+		],
+		"date": "August 9, 2016",
 		"img_file": "107.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "",
+		"tags": ["seth-rich", "julian-assange", "wikileaks"],
+		"title": "Seth Rich’s Connection to WikiLeaks"
 	},
 	"108": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Jack Burkman, a GOP lobbyist who offered a significant sum for information on the murder, reported that a source claiming to be a former U.S. intelligence officer told him that the Russian government arranged Rich's murder, but the source did not provide further details.",
+			"Burkman said he was personally offering a $100,000 reward in addition to those announced by the police department and WikiLeaks, and he added another $5,000 to his offer in December and another $25,000 in January. Burkman said he hoped the money would help 'get to the truth of what happened here and will either debunk the conspiracy theories or validate them.'"
+		],
+		"date": "December 5th 2016",
 		"img_file": "108.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "",
+		"tags": ["seth-rich"],
+		"title": "Jack Burkman’s Claims Regarding the Seth Rich Murder"
 	},
 	"109": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": ["The Metropolitan Police Department offered a reward of up to $25,000 for information on the homicide."],
+		"date": "July 2016",
 		"img_file": "109.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["seth-rich"],
+		"title": "Police’s Reaction to Seth Rich’s Murder"
 	},
 	"110": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Elon Musk and his team announced the progress of Neuralink in a live streamed event.",
+			"The company plans to insert their “N1 chip” in a 1 inch by 1 inch hole drilled into a human skull to embed thin threads into the brain connected to the chip’s small processor.",
+			"Patients can then access the chip’s functionality with a bluetooth device to control their brain's functionality.",
+			"Musk described the process as easy as a lasik eye procedure.",
+			"The company is seeking FDA approval for the first human patient by the end of 2020.",
+			"The initial target patient group is people with existing severe brain injuries."
+		],
+		"date": "July 16, 2019",
 		"img_file": "110.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "San Francisco, California",
+		"tags": ["neuralink", "elon-musk"],
+		"title": "Neuralink Announcement"
 	},
 	"111": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"A video surfaced in early May, 2020 recorded by a driver showing two white men (Greg andTravis McMichael) with a shotgun and revolver firing in a confrontation with an seemingly unarmed black man (Ahmaud Arbery).",
+			"Greg McMichael stood on the back of a pickup truck firing three total shots at Arbery while his son, Travis, wrestled for his gun with Arbery.",
+			"After the shots were fired, Arbery attempts to run away before falling to the ground."
+		],
+		"date": "February 23, 2020",
 		"img_file": "111.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Satilla Shores, Unincorporated Glynn County, Georgia, U.S.",
+		"tags": ["ahmaud-arbery"],
+		"title": "Video of the Shooting of Ahmaud Arbery"
 	},
 	"112": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": ["Security camera footage shows that Arbery was entering the the construction site to get a drink of water"],
+		"date": "February 23, 2020",
 		"img_file": "112.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Satilla Shores, Unincorporated Glynn County, Georgia, U.S.",
+		"tags": ["ahmaud-arbery"],
+		"title": "Video of the Construction Site where Ahmaud Arbery was seen"
 	},
 	"113": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"It has been confirmed that the video took place on  February 23, 2020 after Ahmaud Arberywas followed by the McMichaels in Brunswick, GA while out for a jog near his home.",
+			"The shooters claim to have witnessed Arbery breaking into a home construction site and were attempting to perform a citizen’s arrest.",
+			"The shooters were arrested on May 7, 2020, nearly 2.5 months after the shooting occurred."
+		],
+		"date": "May 8, 2020",
 		"img_file": "113.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "",
+		"tags": ["ahmaud-arbery", "arrest"],
+		"title": "The Arrest of Greg and Travis McMichael"
 	},
 	"114": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Gabriel Wortman committed multiple shootings and set fires at 16 locations in the Canadian province of Nova Scotia, killing 22 people and injuring three others before he was shot and killed by the Royal Canadian Mounted Police (RCMP) in Enfield.",
+			"For part of the thirteen-hour crime spree, Wortman impersonated a police officer by driving a replica police car and wearing a police uniform. An investigation into Wortman's motives is underway. Police are determining how he obtained firearms without a possession and acquisition licence."
+		],
+		"date": "April 18, 2020",
 		"img_file": "114.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Nova Scotia, Canada",
+		"tags": ["nova-scotia-attacks"],
+		"title": "Mass Shooting in Nova Scotia"
 	},
 	"115": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Police were criticized for not using Alert Ready to warn the public about the attacks. ",
+			"An investigation into law enforcement's response to the rampage, including the decision to not use Alert Ready, is underway."
+		],
+		"date": "April 2020",
 		"img_file": "115.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Nova Scotia, Canada",
+		"tags": ["nova-scotia-attacks"],
+		"title": "Police Response to the Nova Scotia Attacks"
 	},
 	"116": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"In the wake of the Nova Scotia attacks, Prime Minister Justin Trudeau announced an immediate ban on some 1,500 makes and models of military-grade 'assault-style' weapons, including the types used in these attacks.",
+			"The ban is effective immediately.",
+			"Licensed gun owners will no longer be allowed to sell, transport, import or use these sorts of weapons in this country."
+		],
+		"date": "May 01, 2020",
 		"img_file": "116.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Ottawa, Ontario, Canada",
+		"tags": ["nova-scotia-attacks", "justin-trudeau", "gun-laws"],
+		"title": "Trudeau Announces Ban on 1,500 Types of 'Assault-Style' Firearms"
 	},
 	"117": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
+		"content": [
+			"Justin Trudeau announces $9B in financial support for students.",
+			"The proposed Canada Emergency Student Benefit, which would provide support to students and new graduates who are not eligible for the Canada Emergency Response Benefit. This benefit would provide $1,250 per month for eligible students or $1,750 per month for eligible students with dependents or disabilities. The benefit would be available from May to August 2020.",
+			"The new Canada Student Service Grant, which will help students gain valuable work experience and skills while they help their communities during the COVID‑19 pandemic. For students who choose to do national service and serve their communities, the new Canada Student Service Grant will provide up to $5,000 for their education in the fall."
+		],
+		"date": "April 22, 2020",
 		"img_file": "117.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"location": "Ottawa, Ontario, Canada",
+		"tags": ["COVID", "justin-trudeau", "students"],
+		"title": "Justin Trudeau announces $9B in financial support for students"
 	},
 	"201": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "201.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "productivity", "compensation"],
+		"title": "Growth in Productivity and Hourly Compensation; 1948-2017"
 	},
 	"202": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "202.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "GDP", "trade"],
+		"title": "Real GDP, Real Wages and Trade Policies in the US; 1947-2014"
 	},
 	"203": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "203.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "income"],
+		"title": "Income Gains; 1947-2016"
 	},
 	"204": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "204.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "GDP", "median-income"],
+		"title": "Real GDP Per Capita and Median Male Income; 1947-2010"
 	},
 	"205": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "205.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "GDP", "median-income"],
+		"title": "Real GDP Per Capita and Median Female Income; 1947-2010"
 	},
 	"206": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "206.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "consumer-price-index"],
+		"title": "US Consumer Price Index; 1775-2012"
 	},
 	"207": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "207.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "household-income", "income"],
+		"title": "Median Household Income in New York & Boston; 1960-2017"
 	},
 	"208": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "208.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "consumer-price-index", "gold-standard"],
+		"title": "Consumer Price Index; 1900-2015"
 	},
 	"209": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "209.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "gold-standard", "currency"],
+		"title": "Currency Depreciation; 1900-2016"
 	},
 	"210": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "210.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "income"],
+		"title": "Income Growth; 1917-2012"
 	},
 	"211": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "211.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "banking", "crisis"],
+		"title": "Number of Countries with Banking Crises; 1800-2000"
 	},
 	"212": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "212.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "income", "income-inequality"],
+		"title": "US Income Inequality; 1910-2010"
 	},
 	"213": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "213.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "income"],
+		"title": "Income Concentration; 1913-2017"
 	},
 	"214": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "214.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "income"],
+		"title": "Income Share of Top 1% Relative to Bottom 90%; 1920-2020"
 	},
 	"215": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "215.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "wealth-inequality", "wealth"],
+		"title": "Wealth Inequality; 1910 - 2020"
 	},
 	"216": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "216.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "debt"],
+		"title": "Federal Debt Held by the Public; 1790-2020"
 	},
 	"217": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "217.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "GDP", "debt"],
+		"title": "Gross Federal Debt Held by the Public as Percent of GDP; 1940-2020"
 	},
 	"218": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "218.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "GDP", "loans"],
+		"title": "Debt Securities & Loans as Compared to GDP; 1930-2020"
 	},
 	"219": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "219.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "surplus", "deficit"],
+		"title": "Federal Surplus or Deficit as Percent of GDP; 1930-2020"
 	},
 	"220": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "220.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "surplus", "deficit"],
+		"title": "Federal Surplus or Deficit; 1900-2020"
 	},
 	"221": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "221.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "pe-ratio"],
+		"title": "S&P 500 PE Ratio; 1880-2020"
 	},
 	"222": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "222.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "pe-ratio"],
+		"title": "Shiller PE Ratio; 1880-2020"
 	},
 	"223": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "223.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "personal-saving"],
+		"title": "US Personal Savings Rate; 1960-2020"
 	},
 	"224": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "224.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "GNI", "net-saving"],
+		"title": "Net Saving as a Percent of GNI; 1950-2020"
 	},
 	"225": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "225.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "trade-balance"],
+		"title": "US Merchandise Trade Balance; 1895-2015"
 	},
 	"226": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "226.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "trade-balance"],
+		"title": "US Goods Trade Balance; 1956-2020"
 	},
 	"227": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "227.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "oil"],
+		"title": "Cost of a Barrel of Oil in Nominal Terms; 1870-2020"
 	},
 	"228": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "228.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "interest"],
+		"title": "Interest Rates; 3000BC-2020"
 	},
 	"229": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "229.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "bonds"],
+		"title": "Long Term Government Bond Yields; 1965-2020"
 	},
 	"230": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "230.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "federal-register"],
+		"title": "Number of Pages in the Federal Register; 1940-2020"
 	},
 	"231": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "231.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "incarceration"],
+		"title": "Incarceration Rate per 100,000 Population; 1925-2014"
 	},
 	"232": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "232.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics"],
+		"title": "Share of 25-29 Year Olds Living with Parents of Grandparents; 1940-2015"
 	},
 	"233": {
-		"content": ["Event Item 1", "Event Item 2", "Event Item 3"],
-		"date": "MMM D, YYYY",
 		"img_file": "233.png",
-		"location": "Location",
-		"tags": ["tag1", "tag2", "tag3"],
-		"title": "Event Title"
+		"tags": ["economics", "divorce"],
+		"title": "Divorce Prevalence by Age; 1950-2016"
 	}
 }
