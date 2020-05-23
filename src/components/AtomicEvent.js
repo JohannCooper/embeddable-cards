@@ -1,19 +1,29 @@
-import React, { useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import FormControl from 'react-bootstrap/FormControl';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-const routeIndex = window.location.href.search(/\w\/.*$/g);
-const src = window.location.href.slice(0, routeIndex + 1);
-const width = 286;
-const height = 202;
-
 function AtomicEvent({ content, date, id, image, location, tags, title }) {
-  const code = `:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}/embed/${id}"} " "]`;
+  const routeIndex = window.location.href.search(/\w\/.*$/g);
+  const src = window.location.href.slice(0, routeIndex + 1);
 
-  const [embedCode, setEmbedCode] = useState(code);
+  const cardRef = useRef(null);
   const codeRef = useRef(null);
+  const [width] = useState(400);
+  const [height, setHeight] = useState(0);
+  const [embedCode, setEmbedCode] = useState(
+    `:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}/embed/${id}"} " "]`,
+  );
+
+  useEffect(() => {
+    if (cardRef.current === null) return;
+    setHeight(cardRef.current.clientHeight);
+  }, [cardRef]);
+
+  useEffect(() => {
+    setEmbedCode(`:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}/embed/${id}"} " "]`);
+  }, [width, height, src, id]);
 
   function copyCode() {
     const textArea = codeRef.current;
@@ -57,7 +67,7 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
   const cardTitle = title !== undefined ? <Card.Title>{title}</Card.Title> : null;
 
   return (
-    <Card style={{ width: '400px' }}>
+    <Card ref={cardRef} style={{ width: '400px' }}>
       {cardHeader}
       {cardImage}
       <Card.Body style={{ paddingBottom: 10 }}>
