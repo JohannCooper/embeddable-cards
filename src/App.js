@@ -6,12 +6,11 @@ import Cards from './views/Cards';
 import Chains from './views/Chains';
 import Embedding from './views/Embedding';
 import Feedback from './views/Feedback';
-import Home from './views/Home';
 
 function Routes() {
   return (
     <Switch>
-      <Route exact path='/' component={Home} />
+      <Route exact path='/' component={Cards} />
       <Route exact path='/about' component={About} />
       <Route exact path='/cards' component={Cards} />
       <Route exact path='/chains' component={Chains} />

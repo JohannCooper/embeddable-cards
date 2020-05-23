@@ -9,7 +9,6 @@ function Navigation() {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav activeKey={window.location.pathname} className='mr-auto'>
-          <Nav.Link href='/'>Home</Nav.Link>
           <Nav.Link href='/cards'>Cards</Nav.Link>
           <Nav.Link href='/chains'>Chains</Nav.Link>
           <Nav.Link href='/feedback'>Feedback</Nav.Link>
