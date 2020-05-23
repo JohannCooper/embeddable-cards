@@ -10,7 +10,7 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
 
   const cardRef = useRef(null);
   const codeRef = useRef(null);
-  const [width] = useState(400);
+  const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
   const [embedCode, setEmbedCode] = useState(
     `:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}/embed/${id}"} " "]`,
@@ -18,6 +18,7 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
 
   useEffect(() => {
     if (cardRef.current === null) return;
+    setWidth(cardRef.current.clientWidth);
     setHeight(cardRef.current.clientHeight);
   }, [cardRef]);
 
@@ -36,9 +37,9 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
   const cardContent =
     Array.isArray(content) && content.length > 0 ? (
       <ul>
-        {content.map((item) => (
-          <li>{item}</li>
-        ))}
+        {content.map((item, index) => {
+          return <li key={index}>{item}</li>;
+        })}
       </ul>
     ) : null;
   const cardDate = date !== undefined ? <Card.Text>{date}</Card.Text> : null;
@@ -58,16 +59,24 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
         {tags.map((tag, index) => {
           const tagName = `#${tag}`;
           if (index === 0) {
-            return <Card.Text className='ml-auto'>{tagName}</Card.Text>;
+            return (
+              <Card.Text key={tagName} className='ml-auto'>
+                {tagName}
+              </Card.Text>
+            );
           }
-          return <Card.Text style={{ marginLeft: '10px' }}>{tagName}</Card.Text>;
+          return (
+            <Card.Text key={tagName} style={{ marginLeft: '10px' }}>
+              {tagName}
+            </Card.Text>
+          );
         })}
       </div>
     ) : null;
   const cardTitle = title !== undefined ? <Card.Title>{title}</Card.Title> : null;
 
   return (
-    <Card ref={cardRef} style={{ width: '400px' }}>
+    <Card ref={cardRef}>
       {cardHeader}
       {cardImage}
       <Card.Body style={{ paddingBottom: 10 }}>

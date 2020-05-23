@@ -6,11 +6,36 @@ import data from '../api/data.json';
 const cards = Object.entries(data).map(([key, val]) => {
   const { content, date, img_file, location, tags, title } = val;
   const image = require(`../images/${img_file}`);
-  return <AtomicEvent content={content} date={date} id={key} image={image} location={location} tags={tags} title={title} />;
+  return (
+    <AtomicEvent
+      key={key}
+      content={content}
+      date={date}
+      id={key}
+      image={image}
+      location={location}
+      tags={tags}
+      title={title}
+    />
+  );
 });
 
 function Cards() {
-  return <div>{cards}</div>;
+  return (
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(auto, 600px))',
+        gridAutoRows: 'max-content',
+        gridAutoFlow: 'dense',
+        gridGap: 20,
+        justifyContent: 'center',
+        margin: 20,
+      }}
+    >
+      {cards}
+    </div>
+  );
 }
 
 export default Cards;

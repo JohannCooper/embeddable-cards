@@ -27,8 +27,6 @@ function App() {
   const src = location.pathname.slice(routeIndex + 1);
   const realLocation = location.pathname.replace(src, '');
 
-  console.log(realLocation);
-
   return (
     <div style={{ display: 'flex', flexFlow: 'column', height: '100%' }}>
       {realLocation !== '/embed' ? <Navigation /> : null}
