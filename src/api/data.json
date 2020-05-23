@@ -1,0 +1,10 @@
+{
+  "001": {
+    "content": ["Event Item 1", "Event Item 2", "Event Item 3"],
+    "date": "MMM D, YYYY",
+    "img_file": "default.jpg",
+    "location": "Location",
+    "tags": ["tag1", "tag2", "tag3"],
+    "title": "Event Title"
+  }
+}
