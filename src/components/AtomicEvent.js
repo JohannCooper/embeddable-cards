@@ -4,50 +4,64 @@ import Card from 'react-bootstrap/Card';
 import FormControl from 'react-bootstrap/FormControl';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-import DefaultImage from '../images/default.jpg';
-
 const src = window.location.href;
 const width = 286;
 const height = 202;
+const code = `:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}"} " "]`;
 
-function AtomicEvent() {
-  const [embedCode, setEmbedCode] = useState(
-    `:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}"} " "]`,
-  );
+function AtomicEvent({ content, date, image, location, tags, title }) {
+  const [embedCode, setEmbedCode] = useState(code);
   const codeRef = useRef(null);
 
   function copyCode() {
     const textArea = codeRef.current;
-
-    if (textArea === null) {
-      return;
-    }
-
+    if (textArea === null) return;
     textArea.focus();
     textArea.select();
     document.execCommand('copy');
   }
 
+  const cardContent =
+    Array.isArray(content) && content.length > 0 ? (
+      <ul>
+        {content.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+    ) : null;
+  const cardDate = date !== undefined ? <Card.Text>{date}</Card.Text> : null;
+  const cardLocation = location !== undefined ? <Card.Text className='ml-auto'>{location}</Card.Text> : null;
+  const cardHeader =
+    date !== undefined || location !== undefined ? (
+      <Card.Body style={{ display: 'flex', paddingBottom: 10 }}>
+        {cardDate}
+        {cardLocation}
+      </Card.Body>
+    ) : null;
+  const cardImage = image !== undefined ? <Card.Img variant='top' src={image} alt='Event Image' /> : null;
+  const cardTags =
+    Array.isArray(tags) && tags.length > 0 ? (
+      <div style={{ display: 'flex' }}>
+        <Card.Text>Tags:</Card.Text>
+        {tags.map((tag, index) => {
+          const tagName = `#${tag}`;
+          if (index === 0) {
+            return <Card.Text className='ml-auto'>{tagName}</Card.Text>;
+          }
+          return <Card.Text style={{ marginLeft: '10px' }}>{tagName}</Card.Text>;
+        })}
+      </div>
+    ) : null;
+  const cardTitle = title !== undefined ? <Card.Title>{title}</Card.Title> : null;
+
   return (
     <Card style={{ width: '400px' }}>
-      <Card.Body style={{ display: 'flex', paddingBottom: 10 }}>
-        <Card.Text>MMM D, YYYY</Card.Text>
-        <Card.Text className='ml-auto'>Location</Card.Text>
-      </Card.Body>
-      <Card.Img variant='top' src={DefaultImage} alt='Event Image' />
+      {cardHeader}
+      {cardImage}
       <Card.Body style={{ paddingBottom: 10 }}>
-        <div style={{ display: 'flex' }}>
-          <Card.Text>Tags:</Card.Text>
-          <Card.Text className='ml-auto'>#tag1</Card.Text>
-          <Card.Text style={{ marginLeft: '10px' }}>#tag2</Card.Text>
-          <Card.Text style={{ marginLeft: '10px' }}>#tag3</Card.Text>
-        </div>
-        <Card.Title>Event Title</Card.Title>
-        <ul>
-          <li>Event Item 1</li>
-          <li>Event Item 2</li>
-          <li>Event Item 3</li>
-        </ul>
+        {cardTags}
+        {cardTitle}
+        {cardContent}
         <InputGroup className='mb-3'>
           <FormControl ref={codeRef} value={embedCode} onChange={(e) => setEmbedCode(e.target.value)} />
           <InputGroup.Append>
