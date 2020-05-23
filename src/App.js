@@ -30,7 +30,7 @@ function App() {
   console.log(realLocation);
 
   return (
-    <div>
+    <div style={{ display: 'flex', flexFlow: 'column', height: '100%' }}>
       {realLocation !== '/embed' ? <Navigation /> : null}
       <Routes />
     </div>
