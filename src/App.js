@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, useLocation } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import About from './views/About';
 import Cards from './views/Cards';
@@ -22,9 +22,16 @@ function Routes() {
 }
 
 function App() {
+  const location = useLocation();
+  const routeIndex = location.pathname.search(/\w\/.*$/g);
+  const src = location.pathname.slice(routeIndex + 1);
+  const realLocation = location.pathname.replace(src, '');
+
+  console.log(realLocation);
+
   return (
     <div>
-      <Navigation />
+      {realLocation !== '/embed' ? <Navigation /> : null}
       <Routes />
     </div>
   );
