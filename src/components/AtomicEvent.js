@@ -4,12 +4,14 @@ import Card from 'react-bootstrap/Card';
 import FormControl from 'react-bootstrap/FormControl';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-const src = window.location.href;
+const routeIndex = window.location.href.search(/\w\/.*$/g);
+const src = window.location.href.slice(0, routeIndex + 1);
 const width = 286;
 const height = 202;
-const code = `:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}"} " "]`;
 
-function AtomicEvent({ content, date, image, location, tags, title }) {
+function AtomicEvent({ content, date, id, image, location, tags, title }) {
+  const code = `:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}/embed/${id}"} " "]`;
+
   const [embedCode, setEmbedCode] = useState(code);
   const codeRef = useRef(null);
 

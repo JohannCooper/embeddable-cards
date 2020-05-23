@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import About from './views/About';
 import Cards from './views/Cards';
 import Chains from './views/Chains';
+import Embedding from './views/Embedding';
 import Feedback from './views/Feedback';
 import Home from './views/Home';
 
@@ -14,6 +15,7 @@ function Routes() {
       <Route exact path='/about' component={About} />
       <Route exact path='/cards' component={Cards} />
       <Route exact path='/chains' component={Chains} />
+      <Route path='/embed/:id' component={Embedding} />
       <Route exact path='/feedback' component={Feedback} />
     </Switch>
   );
