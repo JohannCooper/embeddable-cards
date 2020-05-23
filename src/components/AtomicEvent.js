@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import FormControl from 'react-bootstrap/FormControl';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-function AtomicEvent({ content, date, id, image, location, tags, title }) {
+function AtomicEvent({ content, date, enableEmbedding, id, image, location, tags, title }) {
   const routeIndex = window.location.href.search(/\w\/.*$/g);
   const src = window.location.href.slice(0, routeIndex + 1);
 
@@ -43,6 +43,17 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
       </ul>
     ) : null;
   const cardDate = date !== undefined ? <Card.Text>{date}</Card.Text> : null;
+  const cardEmbedding =
+    enableEmbedding !== false ? (
+      <InputGroup className='mb-3'>
+        <FormControl ref={codeRef} value={embedCode} onChange={(e) => setEmbedCode(e.target.value)} />
+        <InputGroup.Append>
+          <Button variant='primary' onClick={copyCode}>
+            Copy
+          </Button>
+        </InputGroup.Append>
+      </InputGroup>
+    ) : null;
   const cardLocation = location !== undefined ? <Card.Text className='ml-auto'>{location}</Card.Text> : null;
   const cardHeader =
     date !== undefined || location !== undefined ? (
@@ -83,14 +94,7 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
         {cardTags}
         {cardTitle}
         {cardContent}
-        <InputGroup className='mb-3'>
-          <FormControl ref={codeRef} value={embedCode} onChange={(e) => setEmbedCode(e.target.value)} />
-          <InputGroup.Append>
-            <Button variant='primary' onClick={copyCode}>
-              Copy
-            </Button>
-          </InputGroup.Append>
-        </InputGroup>
+        {cardEmbedding}
       </Card.Body>
     </Card>
   );

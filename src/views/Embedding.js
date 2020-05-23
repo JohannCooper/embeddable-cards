@@ -14,7 +14,18 @@ function Embedding() {
   const { content, date, img_file, location, tags, title } = data[id];
   const image = require(`../images/${img_file}`);
 
-  return <AtomicEvent content={content} date={date} id={id} image={image} location={location} tags={tags} title={title} />;
+  return (
+    <AtomicEvent
+      content={content}
+      date={date}
+      enableEmbedding={false}
+      id={id}
+      image={image}
+      location={location}
+      tags={tags}
+      title={title}
+    />
+  );
 }
 
 export default Embedding;
