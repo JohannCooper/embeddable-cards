@@ -22,7 +22,7 @@ function AtomicEvent({ content, date, id, image, location, tags, title }) {
   }, [cardRef]);
 
   useEffect(() => {
-    setEmbedCode(`:hiccup [:iframe {:width "${width}px", :height "${height}px", :src "${src}/embed/${id}"} " "]`);
+    setEmbedCode(`:hiccup [:iframe {:width "${width + 4}px", :height "${height + 7}px", :src "${src}/embed/${id}"} " "]`);
   }, [width, height, src, id]);
 
   function copyCode() {
