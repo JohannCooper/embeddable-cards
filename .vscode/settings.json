@@ -12,5 +12,6 @@
   "prettier.trailingComma": "all",
   "prettier.printWidth": 125,
   "prettier.jsxSingleQuote": true,
-  "javascript.autoClosingTags": true
+  "javascript.autoClosingTags": true,
+  "editor.tabSize": 2
 }
