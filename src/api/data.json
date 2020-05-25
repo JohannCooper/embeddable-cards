@@ -1,293 +1,297 @@
 {
-	"110": {
-		"content": [
-			"Elon Musk and his team announced the progress of Neuralink in a live streamed event.",
-			"The company plans to insert their “N1 chip” in a 1 inch by 1 inch hole drilled into a human skull to embed thin threads into the brain connected to the chip’s small processor.",
-			"Patients can then access the chip’s functionality with a bluetooth device to control their brain's functionality.",
-			"Musk described the process as easy as a lasik eye procedure.",
-			"The company is seeking FDA approval for the first human patient by the end of 2020.",
-			"The initial target patient group is people with existing severe brain injuries."
-		],
-		"date": "July 16, 2019",
-		"img_file": "110.png",
-		"location": "San Francisco, California",
-		"tags": ["neuralink", "elon-musk"],
-		"title": "Neuralink Announcement"
-	},
-	"111": {
-		"content": [
-			"A video surfaced in early May, 2020 recorded by a driver showing two white men (Greg andTravis McMichael) with a shotgun and revolver firing in a confrontation with an seemingly unarmed black man (Ahmaud Arbery).",
-			"Greg McMichael stood on the back of a pickup truck firing three total shots at Arbery while his son, Travis, wrestled for his gun with Arbery.",
-			"After the shots were fired, Arbery attempts to run away before falling to the ground."
-		],
-		"date": "February 23, 2020",
-		"img_file": "111.png",
-		"location": "Satilla Shores, Unincorporated Glynn County, Georgia, U.S.",
-		"tags": ["ahmaud-arbery"],
-		"title": "Video of the Shooting of Ahmaud Arbery"
-	},
-	"112": {
-		"content": ["Security camera footage shows that Arbery was entering the the construction site to get a drink of water"],
-		"date": "February 23, 2020",
-		"img_file": "112.png",
-		"location": "Satilla Shores, Unincorporated Glynn County, Georgia, U.S.",
-		"tags": ["ahmaud-arbery"],
-		"title": "Video of the Construction Site where Ahmaud Arbery was seen"
-	},
-	"113": {
-		"content": [
-			"It has been confirmed that the video took place on  February 23, 2020 after Ahmaud Arberywas followed by the McMichaels in Brunswick, GA while out for a jog near his home.",
-			"The shooters claim to have witnessed Arbery breaking into a home construction site and were attempting to perform a citizen’s arrest.",
-			"The shooters were arrested on May 7, 2020, nearly 2.5 months after the shooting occurred."
-		],
-		"date": "May 8, 2020",
-		"img_file": "113.png",
-		"location": "",
-		"tags": ["ahmaud-arbery", "arrest"],
-		"title": "The Arrest of Greg and Travis McMichael"
-	},
-	"114": {
-		"content": [
-			"Gabriel Wortman committed multiple shootings and set fires at 16 locations in the Canadian province of Nova Scotia, killing 22 people and injuring three others before he was shot and killed by the Royal Canadian Mounted Police (RCMP) in Enfield.",
-			"For part of the thirteen-hour crime spree, Wortman impersonated a police officer by driving a replica police car and wearing a police uniform. An investigation into Wortman's motives is underway. Police are determining how he obtained firearms without a possession and acquisition licence."
-		],
-		"date": "April 18, 2020",
-		"img_file": "114.png",
-		"location": "Nova Scotia, Canada",
-		"tags": ["nova-scotia-attacks"],
-		"title": "Mass Shooting in Nova Scotia"
-	},
-	"115": {
-		"content": [
-			"Police were criticized for not using Alert Ready to warn the public about the attacks. ",
-			"An investigation into law enforcement's response to the rampage, including the decision to not use Alert Ready, is underway."
-		],
-		"date": "April 2020",
-		"img_file": "115.png",
-		"location": "Nova Scotia, Canada",
-		"tags": ["nova-scotia-attacks"],
-		"title": "Police Response to the Nova Scotia Attacks"
-	},
-	"116": {
-		"content": [
-			"In the wake of the Nova Scotia attacks, Prime Minister Justin Trudeau announced an immediate ban on some 1,500 makes and models of military-grade 'assault-style' weapons, including the types used in these attacks.",
-			"The ban is effective immediately.",
-			"Licensed gun owners will no longer be allowed to sell, transport, import or use these sorts of weapons in this country."
-		],
-		"date": "May 01, 2020",
-		"img_file": "116.png",
-		"location": "Ottawa, Ontario, Canada",
-		"tags": ["nova-scotia-attacks", "justin-trudeau", "gun-laws"],
-		"title": "Trudeau Announces Ban on 1,500 Types of 'Assault-Style' Firearms"
-	},
-	"117": {
-		"content": [
-			"Justin Trudeau announces $9B in financial support for students.",
-			"The proposed Canada Emergency Student Benefit, which would provide support to students and new graduates who are not eligible for the Canada Emergency Response Benefit. This benefit would provide $1,250 per month for eligible students or $1,750 per month for eligible students with dependents or disabilities. The benefit would be available from May to August 2020.",
-			"The new Canada Student Service Grant, which will help students gain valuable work experience and skills while they help their communities during the COVID‑19 pandemic. For students who choose to do national service and serve their communities, the new Canada Student Service Grant will provide up to $5,000 for their education in the fall."
-		],
-		"date": "April 22, 2020",
-		"img_file": "117.png",
-		"location": "Ottawa, Ontario, Canada",
-		"tags": ["COVID", "justin-trudeau", "students"],
-		"title": "Justin Trudeau announces $9B in financial support for students"
-	},
-	"201": {
-		"date": "1948-2017",
-		"img_file": "201.png",
-		"tags": ["economics", "productivity", "compensation"],
-		"title": "Growth in Productivity and Hourly Compensation"
-	},
-	"202": {
-		"date": "1947-2014",
-		"img_file": "202.png",
-		"tags": ["economics", "GDP", "trade"],
-		"title": "Real GDP, Real Wages and Trade Policies in the US"
-	},
-	"203": {
-		"date": "1947-2016",
-		"img_file": "203.png",
-		"tags": ["economics", "income"],
-		"title": "Income Gains"
-	},
-	"204": {
-		"date": "1947-2010",
-		"img_file": "204.png",
-		"tags": ["economics", "GDP", "median-income"],
-		"title": "Real GDP Per Capita and Median Male Income"
-	},
-	"205": {
-		"date": "1947-2010",
-		"img_file": "205.png",
-		"tags": ["economics", "GDP", "median-income"],
-		"title": "Real GDP Per Capita and Median Female Income"
-	},
-	"206": {
-		"date": "1775-2012",
-		"img_file": "206.png",
-		"tags": ["economics", "consumer-price-index"],
-		"title": "US Consumer Price Index"
-	},
-	"207": {
-		"date": "1960-2017",
-		"img_file": "207.png",
-		"tags": ["economics", "household", "income"],
-		"title": "Median Household Income in New York & Boston"
-	},
-	"208": {
-		"date": "1900-2015",
-		"img_file": "208.png",
-		"tags": ["economics", "consumer-price-index", "gold-standard"],
-		"title": "Consumer Price Index"
-	},
-	"209": {
-		"date": "1900-2016",
-		"img_file": "209.png",
-		"tags": ["economics", "gold-standard", "currency"],
-		"title": "Currency Depreciation"
-	},
-	"210": {
-		"date": "1917-2012",
-		"img_file": "210.png",
-		"tags": ["economics", "income"],
-		"title": "Income Growth"
-	},
-	"211": {
-		"date": "1800-2000",
-		"img_file": "211.png",
-		"tags": ["economics", "banking", "crisis"],
-		"title": "Number of Countries with Banking Crises"
-	},
-	"212": {
-		"date": "1910-2010",
-		"img_file": "212.png",
-		"tags": ["economics", "income", "income-inequality"],
-		"title": "US Income Inequality"
-	},
-	"213": {
-		"date": "1913-2017",
-		"img_file": "213.png",
-		"tags": ["economics", "income"],
-		"title": "Income Concentration"
-	},
-	"214": {
-		"date": "1920-2020",
-		"img_file": "214.png",
-		"tags": ["economics", "income"],
-		"title": "Income Share of Top 1% Relative to Bottom 90%"
-	},
-	"215": {
-		"date": "1910-2020",
-		"img_file": "215.png",
-		"tags": ["economics", "wealth-inequality", "wealth"],
-		"title": "Wealth Inequality"
-	},
-	"216": {
-		"date": "1790-2020",
-		"img_file": "216.png",
-		"tags": ["economics", "debt"],
-		"title": "Federal Debt Held by the Public"
-	},
-	"217": {
-		"date": "1940-2020",
-		"img_file": "217.png",
-		"tags": ["economics", "GDP", "debt"],
-		"title": "Gross Federal Debt Held by the Public as Percent of GDP"
-	},
-	"218": {
-		"date": "1930-2020",
-		"img_file": "218.png",
-		"tags": ["economics", "GDP", "loans"],
-		"title": "Debt Securities & Loans as Compared to GDP"
-	},
-	"219": {
-		"date": "1930-2020",
-		"img_file": "219.png",
-		"tags": ["economics", "surplus", "deficit"],
-		"title": "Federal Surplus or Deficit as Percent of GDP"
-	},
-	"220": {
-		"date": "1900-2020",
-		"img_file": "220.png",
-		"tags": ["economics", "surplus", "deficit"],
-		"title": "Federal Surplus or Deficit"
-	},
-	"221": {
-		"date": "1880-2020",
-		"img_file": "221.png",
-		"tags": ["economics", "pe-ratio"],
-		"title": "S&P 500 PE Ratio"
-	},
-	"222": {
-		"date": "1880-2020",
-		"img_file": "222.png",
-		"tags": ["economics", "pe-ratio"],
-		"title": "Shiller PE Ratio"
-	},
-	"223": {
-		"date": "1960-2020",
-		"img_file": "223.png",
-		"tags": ["economics", "personal-saving"],
-		"title": "US Personal Savings Rate"
-	},
-	"224": {
-		"date": "1950-2020",
-		"img_file": "224.png",
-		"tags": ["economics", "GNI", "net-saving"],
-		"title": "Net Saving as a Percent of GNI"
-	},
-	"225": {
-		"date": "1895-2015",
-		"img_file": "225.png",
-		"tags": ["economics", "trade-balance"],
-		"title": "US Merchandise Trade Balance"
-	},
-	"226": {
-		"date": "1956-2020",
-		"img_file": "226.png",
-		"tags": ["economics", "trade-balance"],
-		"title": "US Goods Trade Balance"
-	},
-	"227": {
-		"date": "1870-2020",
-		"img_file": "227.png",
-		"tags": ["economics", "oil"],
-		"title": "Cost of a Barrel of Oil in Nominal Terms"
-	},
-	"228": {
-		"date": "3000BC-2020",
-		"img_file": "228.png",
-		"tags": ["economics", "interest"],
-		"title": "Interest Rates"
-	},
-	"229": {
-		"date": "1965-2020",
-		"img_file": "229.png",
-		"tags": ["economics", "bonds"],
-		"title": "Long Term Government Bond Yields"
-	},
-	"230": {
-		"date": "1940-2020",
-		"img_file": "230.png",
-		"tags": ["economics", "federal-register"],
-		"title": "Number of Pages in the Federal Register"
-	},
-	"231": {
-		"date": "1925-2014",
-		"img_file": "231.png",
-		"tags": ["economics", "incarceration"],
-		"title": "Incarceration Rate per 100,000 Population"
-	},
-	"232": {
-		"date": "1940-2015",
-		"img_file": "232.png",
-		"tags": ["economics"],
-		"title": "Share of 25-29 Year Olds Living with Parents of Grandparents"
-	},
-	"233": {
-		"date": "1950-2016",
-		"img_file": "233.png",
-		"tags": ["economics", "divorce"],
-		"title": "Divorce Prevalence by Age"
-	}
+  "110": {
+    "content": [
+      "Elon Musk and his team announced the progress of Neuralink in a live streamed event.",
+      "The company plans to insert their “N1 chip” in a 1 inch by 1 inch hole drilled into a human skull to embed thin threads into the brain connected to the chip’s small processor.",
+      "Patients can then access the chip’s functionality with a bluetooth device to control their brain's functionality.",
+      "Musk described the process as easy as a lasik eye procedure.",
+      "The company is seeking FDA approval for the first human patient by the end of 2020.",
+      "The initial target patient group is people with existing severe brain injuries."
+    ],
+    "date": "July 16, 2019",
+    "img_file": "110.png",
+    "location": "San Francisco, California",
+    "tags": ["neuralink", "elon-musk"],
+    "title": "Neuralink Announcement"
+  },
+  "111": {
+    "content": [
+      "A video surfaced in early May, 2020 recorded by a driver showing two white men (Greg and Travis McMichael) with a shotgun and revolver firing in a confrontation with an seemingly unarmed black man (Ahmaud Arbery).",
+      "Greg McMichael stood on the back of a pickup truck firing three total shots at Arbery while his son, Travis, wrestled for his gun with Arbery.",
+      "After the shots were fired, Arbery attempts to run away before falling to the ground."
+    ],
+    "date": "February 23, 2020",
+    "img_file": "111.png",
+    "location": "Satilla Shores, Unincorporated Glynn County, Georgia, U.S.",
+    "tags": ["ahmaud-arbery"],
+    "title": "Video of the Shooting of Ahmaud Arbery"
+  },
+  "112": {
+    "content": ["Security camera footage shows that Arbery was entering the the construction site to get a drink of water."],
+    "date": "February 23, 2020",
+    "img_file": "112.png",
+    "location": "Satilla Shores, Unincorporated Glynn County, Georgia, U.S.",
+    "tags": ["ahmaud-arbery"],
+    "title": "Video of the Construction Site where Ahmaud Arbery was Seen"
+  },
+  "113": {
+    "content": [
+      "It has been confirmed that the video took place on  February 23, 2020 after Ahmaud Arberywas followed by the McMichaels in Brunswick, GA while out for a jog near his home.",
+      "The shooters claim to have witnessed Arbery breaking into a home construction site and were attempting to perform a citizen’s arrest.",
+      "The shooters were arrested on May 7, 2020, nearly 2.5 months after the shooting occurred."
+    ],
+    "date": "May 8, 2020",
+    "img_file": "113.png",
+    "location": "Brunswick, GA",
+    "tags": ["ahmaud-arbery", "arrest"],
+    "title": "The Arrest of Greg and Travis McMichael"
+  },
+  "114": {
+    "content": [
+      "Gabriel Wortman committed multiple shootings and set fires at 16 locations in the Canadian province of Nova Scotia, killing 22 people and injuring three others before he was shot and killed by the Royal Canadian Mounted Police (RCMP) in Enfield.",
+      "For part of the thirteen-hour crime spree, Wortman impersonated a police officer by driving a replica police car and wearing a police uniform."
+    ],
+    "date": "April 18, 2020",
+    "img_file": "114.png",
+    "location": "Nova Scotia, Canada",
+    "tags": ["nova-scotia-attacks"],
+    "title": "Mass Shooting in Nova Scotia"
+  },
+  "115": {
+    "content": [
+      "Police are investigating the motives of Gabriel Wortman currently.",
+      "Police are determining how he obtained firearms without a possession and acquisition licence.",
+      "Police were criticized for not using Alert Ready to warn the public about the attacks.",
+      "An investigation into law enforcement's response to the rampage, including the decision to not use Alert Ready, is underway."
+    ],
+    "date": "April 2020",
+    "img_file": "115.png",
+    "location": "Nova Scotia, Canada",
+    "tags": ["nova-scotia-attacks"],
+    "title": "Police Response to the Nova Scotia Attacks"
+  },
+  "116": {
+    "content": [
+      "In the wake of the Nova Scotia attacks, Prime Minister Justin Trudeau announced an immediate ban on some 1,500 makes and models of military-grade 'assault-style' weapons, including the types used in these attacks.",
+      "The ban is effective immediately.",
+      "Licensed gun owners will no longer be allowed to sell, transport, import or use these sorts of weapons in Canada."
+    ],
+    "date": "May 1, 2020",
+    "img_file": "116.png",
+    "location": "Ottawa, Ontario, Canada",
+    "tags": ["nova-scotia-attacks", "justin-trudeau", "gun-laws"],
+    "title": "Trudeau Announces Ban on 1,500 Types of 'Assault-Style' Firearms"
+  },
+  "117": {
+    "content": [
+      "The proposed Canada Emergency Student Benefit would provide $1,250 per month for eligible students or $1,750 per month for eligible students with dependents or disabilities.",
+      "The benefit would provide support to students and new graduates who are not eligible for the Canada Emergency Response Benefit.",
+      "The benefit will be available from May to August 2020.",
+      "The benefit is intended help students gain valuable work experience and skills while they help their communities during the COVID‑19 pandemic.",
+      "For students who choose to do national service and serve their communities, the new Canada Student Service Grant will provide up to $5,000 for their education in the fall."
+    ],
+    "date": "April 22, 2020",
+    "img_file": "117.png",
+    "location": "Ottawa, Ontario, Canada",
+    "tags": ["COVID", "justin-trudeau", "students"],
+    "title": "Justin Trudeau announces $9B in financial support for students"
+  },
+  "201": {
+    "date": "1948-2017",
+    "img_file": "201.png",
+    "tags": ["economics", "productivity", "compensation"],
+    "title": "Growth in Productivity and Hourly Compensation"
+  },
+  "202": {
+    "date": "1947-2014",
+    "img_file": "202.png",
+    "tags": ["economics", "GDP", "trade"],
+    "title": "Real GDP, Real Wages and Trade Policies in the US"
+  },
+  "203": {
+    "date": "1947-2016",
+    "img_file": "203.png",
+    "tags": ["economics", "income"],
+    "title": "Income Gains"
+  },
+  "204": {
+    "date": "1947-2010",
+    "img_file": "204.png",
+    "tags": ["economics", "GDP", "median-income"],
+    "title": "Real GDP Per Capita and Median Male Income"
+  },
+  "205": {
+    "date": "1947-2010",
+    "img_file": "205.png",
+    "tags": ["economics", "GDP", "median-income"],
+    "title": "Real GDP Per Capita and Median Female Income"
+  },
+  "206": {
+    "date": "1775-2012",
+    "img_file": "206.png",
+    "tags": ["economics", "consumer-price-index"],
+    "title": "US Consumer Price Index"
+  },
+  "207": {
+    "date": "1960-2017",
+    "img_file": "207.png",
+    "tags": ["economics", "household", "income"],
+    "title": "Median Household Income in New York & Boston"
+  },
+  "208": {
+    "date": "1900-2015",
+    "img_file": "208.png",
+    "tags": ["economics", "consumer-price-index", "gold-standard"],
+    "title": "Consumer Price Index"
+  },
+  "209": {
+    "date": "1900-2016",
+    "img_file": "209.png",
+    "tags": ["economics", "gold-standard", "currency"],
+    "title": "Currency Depreciation"
+  },
+  "210": {
+    "date": "1917-2012",
+    "img_file": "210.png",
+    "tags": ["economics", "income"],
+    "title": "Income Growth"
+  },
+  "211": {
+    "date": "1800-2000",
+    "img_file": "211.png",
+    "tags": ["economics", "banking", "crisis"],
+    "title": "Number of Countries with Banking Crises"
+  },
+  "212": {
+    "date": "1910-2010",
+    "img_file": "212.png",
+    "tags": ["economics", "income", "income-inequality"],
+    "title": "US Income Inequality"
+  },
+  "213": {
+    "date": "1913-2017",
+    "img_file": "213.png",
+    "tags": ["economics", "income"],
+    "title": "Income Concentration"
+  },
+  "214": {
+    "date": "1920-2020",
+    "img_file": "214.png",
+    "tags": ["economics", "income"],
+    "title": "Income Share of Top 1% Relative to Bottom 90%"
+  },
+  "215": {
+    "date": "1910-2020",
+    "img_file": "215.png",
+    "tags": ["economics", "wealth-inequality", "wealth"],
+    "title": "Wealth Inequality"
+  },
+  "216": {
+    "date": "1790-2020",
+    "img_file": "216.png",
+    "tags": ["economics", "debt"],
+    "title": "Federal Debt Held by the Public"
+  },
+  "217": {
+    "date": "1940-2020",
+    "img_file": "217.png",
+    "tags": ["economics", "GDP", "debt"],
+    "title": "Gross Federal Debt Held by the Public as Percent of GDP"
+  },
+  "218": {
+    "date": "1930-2020",
+    "img_file": "218.png",
+    "tags": ["economics", "GDP", "loans"],
+    "title": "Debt Securities & Loans as Compared to GDP"
+  },
+  "219": {
+    "date": "1930-2020",
+    "img_file": "219.png",
+    "tags": ["economics", "surplus", "deficit"],
+    "title": "Federal Surplus or Deficit as Percent of GDP"
+  },
+  "220": {
+    "date": "1900-2020",
+    "img_file": "220.png",
+    "tags": ["economics", "surplus", "deficit"],
+    "title": "Federal Surplus or Deficit"
+  },
+  "221": {
+    "date": "1880-2020",
+    "img_file": "221.png",
+    "tags": ["economics", "pe-ratio"],
+    "title": "S&P 500 PE Ratio"
+  },
+  "222": {
+    "date": "1880-2020",
+    "img_file": "222.png",
+    "tags": ["economics", "pe-ratio"],
+    "title": "Shiller PE Ratio"
+  },
+  "223": {
+    "date": "1960-2020",
+    "img_file": "223.png",
+    "tags": ["economics", "personal-saving"],
+    "title": "US Personal Savings Rate"
+  },
+  "224": {
+    "date": "1950-2020",
+    "img_file": "224.png",
+    "tags": ["economics", "GNI", "net-saving"],
+    "title": "Net Saving as a Percent of GNI"
+  },
+  "225": {
+    "date": "1895-2015",
+    "img_file": "225.png",
+    "tags": ["economics", "trade-balance"],
+    "title": "US Merchandise Trade Balance"
+  },
+  "226": {
+    "date": "1956-2020",
+    "img_file": "226.png",
+    "tags": ["economics", "trade-balance"],
+    "title": "US Goods Trade Balance"
+  },
+  "227": {
+    "date": "1870-2020",
+    "img_file": "227.png",
+    "tags": ["economics", "oil"],
+    "title": "Cost of a Barrel of Oil in Nominal Terms"
+  },
+  "228": {
+    "date": "3000BC-2020",
+    "img_file": "228.png",
+    "tags": ["economics", "interest"],
+    "title": "Interest Rates"
+  },
+  "229": {
+    "date": "1965-2020",
+    "img_file": "229.png",
+    "tags": ["economics", "bonds"],
+    "title": "Long Term Government Bond Yields"
+  },
+  "230": {
+    "date": "1940-2020",
+    "img_file": "230.png",
+    "tags": ["economics", "federal-register"],
+    "title": "Number of Pages in the Federal Register"
+  },
+  "231": {
+    "date": "1925-2014",
+    "img_file": "231.png",
+    "tags": ["economics", "incarceration"],
+    "title": "Incarceration Rate per 100,000 Population"
+  },
+  "232": {
+    "date": "1940-2015",
+    "img_file": "232.png",
+    "tags": ["economics"],
+    "title": "Share of 25-29 Year Olds Living with Parents of Grandparents"
+  },
+  "233": {
+    "date": "1950-2016",
+    "img_file": "233.png",
+    "tags": ["economics", "divorce"],
+    "title": "Divorce Prevalence by Age"
+  }
 }
