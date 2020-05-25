@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Switch, Route, useLocation } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import About from './views/About';
 import Cards from './views/Cards';
 import Embedding from './views/Embedding';
 import Feedback from './views/Feedback';
-
-//Analytics imports
-import ReactGa from 'react-ga';
-import trackingId from './api/trackingid.json';
 
 function Routes() {
 	return (
@@ -23,13 +19,6 @@ function Routes() {
 }
 
 function App() {
-	useEffect(() => {
-		//TODO: Make this into an env variable
-		ReactGa.initialize(trackingId.id);
-
-		ReactGa.pageview(window.location.pathname);
-	}, []);
-
 	const location = useLocation();
 	const routeIndex = location.pathname.search(/\w\/.*$/g);
 	const src = location.pathname.slice(routeIndex + 1);
