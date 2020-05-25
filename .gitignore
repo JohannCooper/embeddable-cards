@@ -26,3 +26,6 @@ yarn-error.log*
 .firebaserc
 firebase.json
 /.firebase
+
+#GA
+/src/api/trackingid.json
